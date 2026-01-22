@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi stranger", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am Subbo", "My name is Subbo", "You can call me SB for short", "I am Subbo, my friends call me SB", "Subbo is my name"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about MIT College", "I can give you information about MIT College"]
+      },
+     {"tag": "mit_college_info",
+      "patterns": ["Maharashtra Institute of Technology", "What can you tell me about MIT", "MIT", "Tell me about MIT", "What about MIT", "What do you know about MIT", "Tell me more about MIT", "What can you tell me about MIT college", "Tell me about MIT College", "What about MIT College", "What do you know about MIT College", "Tell me more about MIT College"],
+      "responses": ["Maharashtra Institute of Technology (MIT), Aurangabad was established in 2001 by the Gramodyogik Shikshak Mandal (GSM) and the MIT group of institutes. It is an autonomous institute accredited by grade “A” from NAAC. It offers a wide range of courses for graduation and post-graduation level in disciplines of Engineering & Technology. The institute is permanently affiliated to Dr. Babasaheb Ambedkar Marathwada University (BAMU), Aurangabad and is approved by AICTE, Delhi and DTE Maharashtra. MIT has received recognition under Section 2(F) and 12 (B) of the UGC Act, 1956. UGC has granted autonomous status to the institute.", 
+
+      "MIT has got accreditation from Department of Science and Industrial Research (DSIR), Ministry of Science and Technology, Government of India as a Science and Industrial Research Organization (SIROs). MIT has been empanelled under Unnat Maharashtra Abhiyan, a project by the Ministry of Higher and Technical Education, Government of Maharashtra. MIT has been also selected under Unnat Bharat Abhiyan,a flagship programme of the Ministry of Human Resource Development (HRD), Government of India.",
+    "The Gramodyogik Shikshak Mandal (GSM) and the MIT network of institutes founded the Maharashtra Institute of Technology (MIT), Aurangabad in 2001. It is an independent institution with a grade of 'A' from NAAC. It offers a variety of courses in engineering and technology fields at the graduation and post-graduation levels. The institution is accredited by the AICTE in Delhi and the DTE in Maharashtra, and it is permanently associated with Dr. Babasaheb Ambedkar Marathwada University (BAMU), Aurangabad. Under Sections 2(F) and 12(B) of the UGC Act, 1956, MIT has been recognised. The institute now has autonomy thanks to the UGC.",
+  "Marathwada Institute of Technology, Aurangabad is an Indian educational institute located in Aurangabad in the Indian state of Maharashtra. It is run by Gramodyogik Shikshan Mandal (GSM) trust. It was established in 2001. It offers various engineering and management programs. Gramaudyogik Shikshan Mandal (GSM), Aurangabad, Maharashtra, India is the parent trust (Organization) that was established in 1975.MIT was awarded A grade from National Assessment and Accreditation Council (NAAC) in 2017 and autonomous status from University Grants Commission (UGC), New Delhi in 2020."]
+},
+      {"tag": "mit_college_facts",
+       "patterns": ["MIT College Facts", "MIT Facts", "Give me some facts about MIT", "Give me some facts about MIT", "MIT Facts", "MIT interesting facts", "MIT College facts", "mit interesting facts", "Tell me something interesting"],
+       "responses": [
+         "The institute is permanently affiliated to Dr. Babasaheb Ambedkar Marathwada University (BAMU), Aurangabad, and is approved by AICTE, Delhi, and DTE Maharashtra. NAAC has accredited the institute with Grade 'A' ",
+         "MIT received recognition under Section 2(f) and 12 (B) of the UGC Act, 1956. UGC granted it autonomous status. MIT has accreditation from the Department of Science and Industrial Research (DSIR), Ministry of Science and Technology as a Science and Industrial Research Organization (SIROs).",
+         "MIT has been empaneled under Unnat Maharashtra Abhiyan, a project by the Ministry of Higher and Technical Education, Government of Maharashtra.",
+         "MIT was selected under Unnat Bharat Abhiyan, a flagship program of Ministry of Human Resource Development (HRD). MIT is an Approved ESCO = Empaneled as Energy Service Company approved by Bureau of Energy Efficiency (BEE), Ministry of Power. MIT has developed linkages between industry, and non-government organizations.",
+         "MIT is a pioneer in establishing mutually beneficial triangular partnerships among academic institutions, industry, and government organizations. It provides solutions and works on industry research projects for GIZ, Germany, Tata Technologies, and MASSIA. MIT has an association with more than 300 companies for one-semester mandatory In-Plant Training for Business Technology final year students. MIT has recognized Ph.D. Research Centers in Mechanical Engineering and Electronics and Telecommunications affiliated to Dr. Babasaheb Ambedkar Marathwada University, Aurangabad.",
+         "Marathwada Institute of Technology was ranked 83 in Outlook India's 'Top 100 Engineering Colleges in 2018'. MIT was ranked 15th in the state's best colleges "
+       ]
+      },
+      {"tag": "mit_college_location",
+       "patterns": ["MIT College location", "MIT location", "Give me location of MIT", "MIT location", "Tell me location of MIT","where is mit located"],
+       "responses": [
+         "Gate No,1, Beed Bypass Rd, Satara Deolai Parisar, Aurangabad, Maharashtra 431010","Yes I can give you location of MIT: Gate No, 1, Beed Bypass Rd, Satara Deolai Parisar, Aurangabad, Maharashtra 431010"
+       ]
+      },
+      {"tag": "mit_courses",
+      "patterns": ["Courses of mit", "what Courses mit offers","tell me about courses in mit"],
+      "responses" :[" Mit Offers a variety of courses including B.tech and M.tech for various subjects like \n1. Computer Engineering \n2. Electronics and Computer Engineering \n3. Civil Engineering \n4. Mechanical Engineering etc."
+      ]
+      },
+      {"tag": "Director_office",
+      "patterns": ["where is principal office","where is principal office located", "where I can find the principal's office"],
+      "responses" :["Located in Maharashtra institute of Technology building on the first floor at 201"]
+      },
+      {
+        "tag":"about_MCIP",
+        "patterns": [ "what is M-CIP", "Which company do mit have", "tell me about mcip","micro-entrerprise of mit","mcip"],
+        "responses" :["It stands for MIT-Center for Industry Relevance in Polymer Science and Technology (M-CIP), (A Micro enterprise of MIT) Hands on Training on Industry Scale Machines"
+        ]
+      },
+      {
+        "tag":"about_fees_payment",
+        "patterns": [ "How to pay the fees through erp", "tell me about fees payment procedure through erp", "what is the procedure for fees payment"],
+        "responses" :["Visit https://erp.mit.asia through any browser logged in with your credentials (if you don't have you should get them from your respective class teacher) head on to 'Fees Details' section from the left hand sidebar, click on the 'Academic Fees' here you will get all the details of your pending fees, select the installment and click on 'online payment' option follow the onscreen steps to complete the payemnt"  
+        ]
+      }
+  ]
+}
